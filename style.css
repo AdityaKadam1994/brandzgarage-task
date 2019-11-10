@@ -150,6 +150,11 @@ a {
 .testimonial-wrapper {
     padding: 60px 20px 60px 20px;
     position: relative;
+    background-image: url(/images/testimonials.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
 }
 
 .testimonial-wrapper img {
@@ -163,8 +168,8 @@ a {
     border-radius: 50%;
     background-color: #e14537;
     position: absolute;
-    left: 60%;
-    top: 2%;
+    right: -4%;
+    top: -14%;
 }
 
 .quotes-circle p {
@@ -293,6 +298,17 @@ a {
     .ticket-booking {
         top: 28%;
     }
+
+    .customer-story-section h1 {
+        margin-bottom: 75px;
+    }
+
+    .quotes-circle {
+        width: 106px;
+        height: 108px;
+        right: -12%;
+        top: -10%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -329,6 +345,11 @@ a {
     .organize-event h1 {
         font-size: 30px;
         margin-bottom: 15px;
+    }
+
+    .quotes-circle {
+        right: -5%;
+        top: -10%;
     }
 
 }
@@ -396,6 +417,10 @@ a {
     .foo-row div {
         flex-basis: 50%;
     }
+
+    .testimonial-wrapper {
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -443,5 +468,13 @@ a {
 
     .integration-head {
         font-size: 30px;
+    }
+
+    .quotes-circle {
+        display: none;
+    }
+
+    .customer-story-section h1 {
+        margin-bottom: 30px;
     }
 }
