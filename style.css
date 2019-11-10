@@ -411,7 +411,7 @@ a {
     }
 
     .table-container {
-        padding: 0;
+        padding-top: 10px;
     }
 
     .bitpod-events-row button {
