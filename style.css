@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar.bg-grey {
+    background: #f8f8f8;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.bot-nav {
+    padding: 20px 16px;
+}
+
+.bitpod-events-list {
+    list-style: none;
+
+}
+
+.bitpod-events-row {
+    align-items: center;
+}
+
+.bitpod-events-row p,
+.bitpod-events-row ul {
+    margin: 0;
+}
+
+.bitpod-events-list li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.bot-nav-content .event-head {
+    margin-top: 50px;
+}
+
+.bot-nav-content .event-intro {
+    padding: 20px 300px;
+}
+
+.event-features {
+    background: #f9f9f9;
+    padding: 600px 0 60px 0;
+}
+
+.event-features button {
+    margin-top: 30px;
+
+}
+
+.event-wrapper {
+    position: relative;
+}
+
+.ticket-booking {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 32%;
+    box-shadow: 2px -20px 125px 0 rgba(0, 0, 0, 0.22);
+}
+
+.table-container {
+    background: #f9f9f9;
+    padding: 10px;
+}
+
+.styled-table {
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.table td {
+    font-size: 16px !important;
+}
+
+.common-section {
+    padding: 50px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.integration-section .integration-wrapper {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.integration-wrapper .integration-head {
+    margin-bottom: 40px;
+}
+
+.integration-wrapper p {
+    padding: 0 180px 20px 0;
+
+}
+
+.integration-section img {
+    margin-left: 50px;
+}
+
+.orange-circle {
+    position: absolute;
+    background: #ffe59b;
+    height: 183px;
+    width: 183px;
+    border-radius: 50%;
+    bottom: 0;
+    z-index: -1;
+    left: -4%;
+}
+
+.red-circle {
+    position: absolute;
+    background: #ff9187;
+    height: 183px;
+    width: 183px;
+    border-radius: 50%;
+    top: 0;
+    z-index: -1;
+    right: -3%;
+
+}
+
+.customer-story-section {
+    padding-top: 200px;
+}
+
+.customer-story-section h1 {
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.testimonial-wrapper {
+    padding: 60px 20px 60px 20px;
+    position: relative;
+}
+
+.testimonial-wrapper img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quotes-circle {
+    width: 125px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #e14537;
+    position: absolute;
+    left: 60%;
+    top: 2%;
+}
+
+.quotes-circle p {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+
+.testimonial-content-head {
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.person-testimonials {
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.arrow-div span {
+    font-size: 40px;
+}
+
+.arrow-div span:first-child {
+    margin-right: 30px;
+}
+
+.grey-div {
+    background-color: #f7f7f7;
+    position: absolute;
+    width: 75%;
+    right: 0;
+    bottom: 0;
+    top: 15%;
+    z-index: -2;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.features-row {
+    padding-top: 100px;
+}
+
+.features-section {
+    z-index: 3;
+}
+
+.management-div {
+    position: relative;
+}
+
+.organize-event {
+    padding: 75px 0;
+    background: #f8f8f8;
+    z-index: 1;
+}
+
+.table thead th {
+    font-size: 16px;
+}
+
+.management-div .orange-circle {
+    bottom: 29%;
+    z-index: 2;
+}
+
+.newsletter-section {
+    padding: 75px;
+}
+
+.form-elements-wrapper {
+    box-shadow: 0px 16px 35px 0 rgba(0, 0, 0, 0.22);
+}
+
+.form-elements-wrapper .form-control {
+    border: none;
+    width: 300px;
+}
+
+.form-elements-wrapper .form-control:focus {
+    box-shadow: none;
+}
+
+.form-elements-wrapper .subscribe-btn {
+    background: transparent;
+    color: #4285f4;
+}
+
+.footer {
+    padding: 50px 0 10px 0;
+    background: #182c4e;
+    color: white;
+}
+
+.foo-links {
+    list-style: none;
+}
+
+.foo-links li {
+
+    padding: 5px 0;
+}
+
+.foo-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.foo-row {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+/* Mediaqueries */
+@media screen and (max-width: 1400px) {
+    .bot-nav-content .event-intro {
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ticket-booking {
+        top: 28%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bot-nav-content .event-intro {
+        padding: 20px 0;
+    }
+
+    .integration-wrapper p {
+        padding: 0;
+    }
+
+    .ticket-booking {
+        position: static;
+        left: auto;
+        top: auto;
+        transform: none;
+        box-shadow: -1px -11px 18px 0px rgba(0, 0, 0, 0.22);
+        margin: 20px 0;
+    }
+
+    .event-features {
+        padding: 60px 0;
+    }
+
+    .bitpod-events-list li a {
+        font-size: 16px;
+    }
+
+    .bitpod-events-row button {
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .organize-event h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .bitpod-events-list li:first-child {
+        padding-left: 0;
+    }
+
+    .bot-nav-content .event-head {
+        font-size: 32px;
+    }
+
+    .table-container {
+        margin-bottom: 10px;
+    }
+
+    .orange-circle {
+        display: none;
+    }
+
+    .red-cicrcle {
+        display: none;
+    }
+
+    .integration-section img {
+        margin-left: 0;
+    }
+
+    .grey-div {
+        display: none;
+    }
+
+    .customer-story-section {
+        background: #f7f7f7;
+        padding-top: 50px;
+    }
+
+    .testimonial-wrapper {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .features-row {
+        padding-top: 30px;
+    }
+
+    .features-wrapper {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .table-container {
+        padding: 0;
+    }
+
+    .bitpod-events-row button {
+        width: auto;
+    }
+
+    .bitpod-events-row ul {
+        margin: 10px 0;
+    }
+
+    .foo-row div {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .common-section {
+        padding: 50px 0;
+    }
+
+    .newsletter-section {
+        padding: 0;
+    }
+
+    .bitpod-events-list li {
+        display: block;
+        padding: 0;
+    }
+
+    .event-features h3 {
+        font-size: 26px;
+    }
+
+    .customer-story-section h1 {
+        padding-left: 0;
+        font-size: 30px;
+    }
+
+    .testimonial-content-head {
+        font-size: 28px;
+    }
+
+    .organize-event h1 {
+        line-height: 48px;
+    }
+
+    .newsletter-section {
+        padding: 30px 15px;
+    }
+
+    .organize-event {
+        padding: 75px 15px;
+    }
+
+    .bot-nav-content button {
+        margin-bottom: 20px;
+    }
+
+    .integration-head {
+        font-size: 30px;
+    }
+}
